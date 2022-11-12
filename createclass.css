@@ -1,0 +1,235 @@
+#new{
+    margin-left: 500px;
+    /* display: block;
+    left: 30px; */
+}
+
+.txt_field {
+    position: relative;
+    left: 450px;
+    top: 50px;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 200px;
+  }
+.txt_field input {
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+  }
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label {
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before {
+    width: 100%;
+  }
+
+  /* Teacher-Name-input */
+  .txt_field1 {
+    position: absolute;
+    left: 750px;
+    top: 145px;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 200px;
+  }
+.txt_field1 input {
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field1 label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .txt_field1 span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+  }
+  .txt_field1 input:focus ~ label,
+  .txt_field1 input:valid ~ label {
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field1 input:focus ~ span::before,
+  .txt_field1 input:valid ~ span::before {
+    width: 100%;
+  }
+
+  /* course-name-input */
+  .txt_field2 {
+    position: relative;
+    left: 750px;
+    top: -20px;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 200px;
+  }
+.txt_field2 input {
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field2 label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .txt_field2 span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+  }
+  .txt_field2 input:focus ~ label,
+  .txt_field2 input:valid ~ label {
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field2 input:focus ~ span::before,
+  .txt_field2 input:valid ~ span::before {
+    width: 100%;
+  }
+
+/* batch-number-created */
+.txt_field3 {
+    position: relative;
+    left: 450px;
+    top: -20px;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 500px;
+  }
+.txt_field3 input {
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field3 label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .txt_field3 span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+  }
+  .txt_field3 input:focus ~ label,
+  .txt_field3 input:valid ~ label {
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field3 input:focus ~ span::before,
+  .txt_field3 input:valid ~ span::before {
+    width: 100%;
+  }
+
+/* Button */
+.btn-submit button{
+    position: absolute;
+    top: 520px;
+    left: 640px;
+    width: 100px;
+}
+
+.create-student{
+    position: relative;
+    top: -10px;
+}
+
+.Create-Students{
+    position: relative;
+    top: -80px;
+}
+
+.txt_field3{
+    position: relative;
+    top: -80px;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.file{
+    position: absolute;
+    left: 450px;
+    top: 470px;
+}
