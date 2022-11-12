@@ -11,7 +11,7 @@ const firebaseConfig = {
   projectId: "chate-app-5e123",
   storageBucket: "chate-app-5e123.appspot.com",
   messagingSenderId: "772160352666",
-  appId: "1:772160352666:web:e394a78b8e7e284cdd4a23",
+  appId: "1:772160352666:web:e394a78b8e7e284cdd4a23"
 };
 
 const app = initializeApp(firebaseConfig);
