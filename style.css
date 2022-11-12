@@ -1,0 +1,111 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.image {
+    /* width: 90px; */
+    width: 400px;
+    margin-top: 170px;
+    margin-left: 30px;
+
+}
+
+.heading {
+    /* margin: 4px; */
+    margin-top: -19px;
+    margin-left: 67px;
+}
+
+.login_form {
+
+    background-color: white;
+    position: absolute;
+    top: 135px;
+    right: 160px;
+    /* width: 30%;     */
+    width: 399px;
+    height: 347px;
+    box-shadow: #262a30;
+}
+
+/* #FORM{
+    margin-right: 20px;
+    background-color: white;
+} */
+#email {
+    padding-left: 15px;
+    width: 357px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#pasworrd {
+    padding-left: 15px;
+    width: 357px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#log_btn {
+    width: 357px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 2px solid #166fe5;
+    background-color: #166fe5;
+    border-color: #166fe5;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+#create_btn {
+    width: 357px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 2px solid #42b72a;
+    border-color: #42b72a;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+}
+
+#forget {
+    /* text-align: center; */
+    width: 357px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.fotter_content{
+    position: absolute;
+    top: 510px;
+    right: 180px;
+    color: black;
+}
+
+#name_me{
+/* width: 900px; */
+width: 357px !important;
+height: 40px !important;
+padding-left: 15px;
+}
