@@ -101,6 +101,7 @@ studentSubmit.addEventListener("click", async () => {
   }
 });
 
+// let file = document.getElementById(nefile)
 
 
 
